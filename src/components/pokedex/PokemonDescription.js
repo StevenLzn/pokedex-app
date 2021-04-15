@@ -37,7 +37,6 @@ export const PokemonDescription = ({ idSelected, setPokemonDesc,  pokemonData}) 
         }
 
     }
-    console.log(state);
     const colorCard = !loading && getTypeClass(types[0]);
 
     return (
