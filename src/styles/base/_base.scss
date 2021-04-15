@@ -1,0 +1,145 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+}
+
+html, body {
+    width: 100vw;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+main {
+    width: 100%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.red {
+    background: $red;
+}
+
+.red-lighten {
+    background: lighten($color: $red, $amount: 15);
+}
+
+.green {
+    background: $green;
+}
+
+.green-lighten {
+    background: lighten($color: $green, $amount: 10);
+}
+
+.blue {
+    background: $blue;
+}
+
+.blue-lighten {
+    background: lighten($color: $blue, $amount: 10);
+}
+
+.yellow {
+    background: $yellow;
+}
+
+.yellow-lighten {
+    background: lighten($color: $yellow, $amount: 10);
+}
+
+.grey {
+    background: $grey;
+}
+
+.grey-lighten {
+    background: lighten($color: $grey, $amount: 10);
+}
+
+.purple {
+    background: $purple;
+}
+
+.purple-lighten {
+    background: lighten($color: $purple, $amount: 10);
+}
+
+.yellowgreen {
+    background: $yellowgreen;
+}
+
+.yellowgreen-lighten {
+    background: lighten($color: $yellowgreen, $amount: 5);
+}
+
+.ground {
+    background: $ground;
+}
+
+.ground-lighten {
+    background: lighten($color: $ground, $amount: 5);
+}
+
+.pink {
+    background: $pink;
+}
+
+.pink-lighten {
+    background: lighten($color: $pink, $amount: 5);
+}
+
+.brown {
+    background: $brown;
+}
+
+.brown-lighten {
+    background: lighten($color: $brown, $amount: 5);
+}
+
+.fuchsia {
+    background: $fuchsia;
+}
+
+.fuchsia-lighten {
+    background: lighten($color: $fuchsia, $amount: 5);
+}
+
+.orange {
+    background: $orange;
+}
+
+.orange-lighten {
+    background: lighten($color: $orange, $amount: 5);
+}
+
+.purpledark {
+    background: $purpledark;
+}
+
+.purpledark-lighten {
+    background: lighten($color: $purpledark, $amount: 5);
+}
+
+.blueice {
+    background: $blueice;
+}
+
+.blueice-lighten {
+    background: lighten($color: $blueice, $amount: 5);
+}
+
+.dragon {
+    background: $dragon;
+}
+
+.dragon-lighten {
+    background: lighten($color: $dragon, $amount: 5);
+}
+
+
+.link {
+    text-decoration: none;
+}
+
+
