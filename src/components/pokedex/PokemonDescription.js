@@ -23,7 +23,6 @@ export const PokemonDescription = ({ idSelected, setPokemonDesc,  pokemonData}) 
         setPokemonDesc({
             show: false,
         });
-    
         document.body.style.overflow = 'visible';
     }
 
@@ -37,6 +36,7 @@ export const PokemonDescription = ({ idSelected, setPokemonDesc,  pokemonData}) 
         }
 
     }
+
     const colorCard = !loading && getTypeClass(types[0]);
 
     return (
