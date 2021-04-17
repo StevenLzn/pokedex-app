@@ -10,8 +10,9 @@
 .pokedex__box {
     display: flex;
     flex-direction: column;
-    width: 52%;
     margin-left: 43%;
+    margin-right: 4%;
+    max-width: 100%; 
 }
 
 .pokedex__pokemon-container {

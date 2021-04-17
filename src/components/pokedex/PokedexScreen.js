@@ -7,6 +7,9 @@ import { PokemonCard } from './PokemonCard';
 import { PokemonDescription } from './PokemonDescription';
 
 export const PokedexScreen = () => {
+
+    console.log(document.documentElement.clientWidth);
+    console.log(document.documentElement.width);
     
     const [ loadMore, setLoadMore ] = useState(false);
     const [ state, setState ] = useFetchPokemons(loadMore, setLoadMore);
